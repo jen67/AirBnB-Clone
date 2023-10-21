@@ -1,0 +1,47 @@
+.places .amenities{
+    width:100%;
+    height:auto;
+    padding: 0;
+}
+
+.amenities ul li {
+    display: flex;
+    align-items: center;
+}
+
+.places .amenities ul li img {
+    margin-right: 10px;
+    width:30px;
+   
+}
+
+.places .amenities, .reviews{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.places .amenities h2, .reviews h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.places .amenities ul, .reviews ul{
+list-style-type: none;
+padding: 0;
+}
+
+
+.reviews ul li h3{
+    font-size: 14px;
+}
+
+.reviews ul li p{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.reviews li:nth-of-type(2) h3 {
+    margin-top: 20px;
+}
